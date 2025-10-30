@@ -1,0 +1,75 @@
+.App {
+  background-color: #0052f5;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@font-face {
+  font-family: "Irvin-Heading";
+  src: url("https://db.onlinewebfonts.com/t/1e44faec07b8b81f60a3215d76bd0086.eot");
+  src:
+    url("https://db.onlinewebfonts.com/t/1e44faec07b8b81f60a3215d76bd0086.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/1e44faec07b8b81f60a3215d76bd0086.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/1e44faec07b8b81f60a3215d76bd0086.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/1e44faec07b8b81f60a3215d76bd0086.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/1e44faec07b8b81f60a3215d76bd0086.svg#Irvin-Heading")
+      format("svg");
+}
+
+.App-header {
+  /* background-color: #0052f5; */
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #e6a32f;
+  font-family: "Irvin-Heading";
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: calc(20px + 2vmin);
+  font-weight: 500;
+}
+
+.App-link {
+  color: #ffff;
+}
+
+.App-page {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-recipes-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 40px;
+  margin-top: 50px;
+  gap: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
