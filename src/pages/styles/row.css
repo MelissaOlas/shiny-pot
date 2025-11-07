@@ -1,0 +1,12 @@
+.h2 {
+  font-family: "Irvin-Heading";
+  color: white;
+}
+
+.recipesRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}

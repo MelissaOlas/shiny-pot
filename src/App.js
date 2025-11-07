@@ -1,5 +1,6 @@
 import "./App.css";
-import RecipeCard from "./components/recipes/Card";
+import AppetizersRow from "./pages/AppetizersRow";
+import Meals from "./pages/MealsRow";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       </header>
       <div className="App-page">
         <div className="App-recipes-container">
-          <RecipeCard />
+          <AppetizersRow />
+          <Meals />
         </div>
         <div className="App-recipes-container"></div>
       </div>
